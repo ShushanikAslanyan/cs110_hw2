@@ -20,7 +20,7 @@
       return "";
        }
     console.log(space(spcount)+ stars(stcount)) ; 
-    connect((k-1), (spcount -1), (stcount - 1));
+    connect((k-1), (spcount -1), (stcount + 2));
   };
 
   const triangleStars = function(k) {
