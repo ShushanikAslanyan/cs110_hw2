@@ -1,6 +1,4 @@
-<script>
-
- const space = function(m) {
+const space = function(m) {
   if (m === 0) {
       return "";
   }
@@ -26,4 +24,4 @@
   const triangleStars = function(k) {
     connect(k, k -1, 1)
   };
-  </script>
+  
